@@ -1,0 +1,106 @@
+.login {
+    /* border: 1px solid red; */
+    margin-top: 9vh;
+    height: 91vh;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+}
+
+.background {
+    background-image: url(../images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 100%;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.8; */
+}
+
+.background div{
+    /* background-color: rgba(255, 255, 255, 0.486); */
+    height: 60%;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.loginForm {
+    background-color: white;
+    width: 36%;
+    height: 100%;
+    /* padding: 7% 0.5%; */
+}
+
+.form{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 16vh 1vh;
+}
+
+
+.form h2 {
+    text-align: center;
+    margin: 3vh 0px;
+    font-size: 1.8em;
+    color:rgb(34, 34, 34)
+}
+
+.form label {
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color:rgb(78, 78, 78);
+    font-weight: 700;
+}
+
+.form input{
+    height: 5vh;
+    border-radius: 4px;
+    margin: 2vh 0px;
+    border: 2px solid rgb(184, 184, 184);
+    background-color: rgb(243, 243, 243);
+}
+
+.form button{
+    margin: 4vh 0px;
+    height: 6vh;
+    background-color: rgb(44, 44, 44);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.invalidSignupForm{
+    margin: 4vh 0px;
+    height: 6vh;
+    background-color: rgb(189, 189, 189);
+    border-radius: 4px;
+    color: rgb(126, 126, 126);
+    font-size: 1.3em;
+    cursor: not-allowed;
+    border: none;
+}
+
+.form span{
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.inputError {
+    background-color: rgb(253, 167, 167);
+    border-color: red;
+}
+
+.form div {
+    border: 2px solid green;
+    text-align: center;
+    height: 3vh;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+}

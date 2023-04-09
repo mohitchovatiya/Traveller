@@ -1,0 +1,24 @@
+.package {
+    /* border: 1px solid black; */
+    height: 99%;
+    min-width: 20vw;
+    max-width: 20vw;
+    margin-right: 2vw;;
+}
+
+.package:hover{
+    cursor: pointer;
+}
+
+.package img {
+    /* border: 1px solid red; */
+    width: 99.7%;
+    height: 87%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.package h3{
+    margin-block-start: 1vh;
+    margin-block-end: 0em;
+}
